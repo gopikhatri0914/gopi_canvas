@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function () {
         btn.textContent = 'Booking Submitted! We\'ll contact you soon.';
         btn.style.background = '#059669';
         setTimeout(function () {
-            btn.textContent = 'Book My Class — €40';
+            btn.textContent = 'Book My Class';
             btn.style.background = '';
             bookingForm.reset();
         }, 3000);
